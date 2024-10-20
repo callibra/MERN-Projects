@@ -24,7 +24,7 @@ const Project = () => {
           techname: "Next JS",
         },
       ],
-      img: "public/project.png",
+      img: "/public/project.png",
     },
     {
       name: "Mern Stack Event Management Portal",
@@ -45,7 +45,7 @@ const Project = () => {
           techname: "Nuxt JS",
         },
       ],
-      img: "public/project.png",
+      img: "/public/project.png",
     },
     {
       name: "Mern Stack Social Media",
@@ -66,7 +66,7 @@ const Project = () => {
           techname: "Nuxt JS",
         },
       ],
-      img: "public/project.png",
+      img: "/public/project.png",
     },
     {
       name: "Mern Stack Video Streaming",
@@ -87,7 +87,7 @@ const Project = () => {
           techname: "Angular JS",
         },
       ],
-      img: "public/project.png",
+      img: "/public/project.png",
     },
     {
       name: "Mern Stack Online Learning Platform",
@@ -108,7 +108,7 @@ const Project = () => {
           techname: "Angular JS",
         },
       ],
-      img: "public/project.png",
+      img: "/public/project.png",
     },
     {
       name: "Mern Stack E-commerc",
@@ -132,7 +132,7 @@ const Project = () => {
           techname: "React JS",
         },
       ],
-      img: "public/project.png",
+      img: "/public/project.png",
     },
   ];
 

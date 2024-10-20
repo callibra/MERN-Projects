@@ -12,7 +12,7 @@ const Footer = () => {
                 </div> */}
             </div>
             <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} Portfolio App By <a href="https://1van4e.com" target="_blank" rel="noopener noreferrer" className="blank-link"> 1van4e</a>. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Portfolio App By <a href="#" rel="noopener noreferrer" className="blank-link"> 1van4e</a>. All rights reserved.</p>
             </div>
         </footer>
     );
