@@ -3,7 +3,6 @@ import "./Contact.css";
 import { RiSendPlaneFill } from "react-icons/ri";
 import { Fade, Zoom } from "react-awesome-reveal";
 import { toast, ToastContainer } from "react-toastify";
-import ContactPic from "../../image/contact.jpeg"
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
@@ -58,7 +57,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        process.env.API_URL,
+        "https://portfolioapp-server-email.onrender.com/api/contact",
         formData
       );
       const successMessage = response.data.message;
@@ -96,7 +95,7 @@ const Contact = () => {
         <div className="col-xl-5 col-lg-5 col-md-5 col-sm-0">
           <Fade delay={400}>
             <div className="contact-form-image">
-              <img src={ContactPic} alt="contact form" />
+              <img src="contact.jpeg" alt="contact form" />
             </div>
           </Fade>
         </div>
