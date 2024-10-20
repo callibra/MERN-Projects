@@ -39,3 +39,5 @@ app.on('error', (err) => {
   console.error('Error starting the server:', err);
 });
 
+////////////////////// Server ////////////////////////
+
