@@ -2,7 +2,7 @@ Projects create with MERN Technology.
 <h2 align="center">🧑 MERN Projects 👩</h2>
 <p align="left">• 📢 Projects create with MERN Technology. </p>
 <br>
-<a href="#"><img src="portfolio.png" width="100%" height="100%" align="center"/></a>
+<a href="#"><img src="mern.png" width="100%" height="100%" align="center"/></a>
 <br>
 <h2 align="left">Live Preview: 🌏 </h2>
 <div align="left">
