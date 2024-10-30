@@ -6,7 +6,7 @@
 <h2 align="left">Live Preview: 🌏 </h2>
 <div align="left">
     <p>• 🖥️  <span align="center">Portfolio Application</span>&nbsp;
-    <a href="https://portfolio-app-v1.netlify.app/" title="Portfolio Application">
+    <a href="https://portfolio-app-v1.netlify.app" title="Portfolio Application">
         <img src="https://img.shields.io/badge/Live Preview-CC76F0?logo=shadcnui&logoColor=fff" height="20" align="center"/>
     </a>
     </p>
