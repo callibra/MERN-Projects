@@ -57,7 +57,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "https://portfolioapp-server-email.onrender.com/api/contact",
+        "https://portfolio-server-qzpn.onrender.com/api/contact",
         formData
       );
       const successMessage = response.data.message;
