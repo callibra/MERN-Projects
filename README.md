@@ -1,4 +1,3 @@
-Projects create with MERN Technology.
 <h2 align="center">🚀 MERN Projects ✨</h2>
 <p align="left">• 📢 Projects create with MERN Technology. </p>
 <br>
