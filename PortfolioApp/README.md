@@ -1,4 +1,4 @@
-<h2 align="center">🧑 Portfolio 👩</h2>
+<h2 align="center">🧑 Portfolio Application 👩</h2>
 <p align="left">• 📢 Portfolio Web Site made with React, Node JS, Express JS and Twilio API key for send email.  </p>
 <br>
 <a href="#"><img src="portfolio.png" width="100%" height="100%" align="center"/></a>
