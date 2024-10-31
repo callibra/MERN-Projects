@@ -36,7 +36,12 @@ const NavbarMobileView = () => {
     return (
         <div className='mobile-view-navbar'>
             <div className="navbar-header" style={{ display: 'flex', alignItems: 'center' }}>
-                <GiHamburgerMenu size={25} onClick={handleClick} />
+            <p style={{ margin: 0 }}>
+               <GiHamburgerMenu size={25} onClick={handleClick} />
+            </p>
+              {/* <h3 className="additional-title-mobile" style={{ marginLeft: '100px' }}>
+                  Wellcome to my Websites !!!
+                  </h3> */}
             </div>
             {open && (
                 <div className='mobile-nav' ref={navbarRef}>
