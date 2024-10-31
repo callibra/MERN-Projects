@@ -1,6 +1,5 @@
 .about-section{
     background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 74%, rgba(245,245,245,1) 100%);
-    box-shadow: 11px 11px 5px 0px rgba(219,219,219,1);
     border-radius: 5px;
     margin-top: 50px;
     height: 500px;
@@ -9,7 +8,6 @@
 #dark .about-section{
     background-color: rgb(37, 37, 37);
     background: none;
-    box-shadow: 11px 11px 5px 0px rgb(43, 43, 43);
 }
 
 .about-image img {
@@ -156,10 +154,6 @@
 @media (max-width:1000px) {
     .about-section{
         height: auto;
-        box-shadow: none;
-    }
-    #dark .about-section{
-        box-shadow: none;
     }
     /* .about-image img {
         display: none;

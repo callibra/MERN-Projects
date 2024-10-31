@@ -7,13 +7,11 @@
     margin-top: 50px;
     border-radius: 8px;
     background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 74%, rgba(245,245,245,1) 100%);
-    box-shadow: 11px 11px 5px 0px rgba(219,219,219,1);
 }
 
 #dark .contact-section{
     background-color: rgb(26, 26, 26); 
     background: none;
-    box-shadow: 11px 11px 5px 0px rgb(43, 43, 43);
 }
 
 .contact-form-image img{
@@ -118,26 +116,6 @@
     display: flex;
     justify-content: center;
 }
-
-@media (max-width:1000px) {
-    .contact-form-image img{
-       display: none;
-    }
-    .contact-section{
-        display: block; 
-        justify-content: normal; 
-        align-items: normal;
-        box-shadow: none;
-    }
-    #dark .contact-section{
-        background-color: rgb(26, 26, 26); 
-        background: none;
-        box-shadow: none;
-    }
-    .button-submit{
-        margin-top: 70px;
-    }
-}
   
 @media (max-width:767px) {
     .contact-form-image img{
@@ -147,7 +125,6 @@
         display: block; 
         justify-content: normal; 
         align-items: normal;
-        box-shadow: none;
     }
     .button-submit{
         margin-top: 70px;
