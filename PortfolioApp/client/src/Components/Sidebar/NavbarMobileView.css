@@ -57,10 +57,10 @@
 .mobile-nav{
     position: absolute; 
     margin-top: 20px;
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 10px 10px;
     height: auto;
     width: 210px;
-    background-color: rgba(56, 56, 56, 0.972);
+    background-color: rgba(43, 43, 43, 0.981);
     border-radius: 5px;
     margin-left: 2px;
     box-shadow: 5px 5px 5px 0px rgb(86, 86, 86);
@@ -74,23 +74,13 @@
     display: flex;
     vertical-align: middle;
     object-fit: cover;
-    border:3px solid yellow;
+    border: 3px solid rgb(54, 54, 54);
     box-shadow: 5px 5px 5px 0px rgb(99, 99, 99);
 }
 
 .logo:hover{
     transform: scale(1.1);
     cursor: pointer;
-}
-
-.close-button {
-    transition: transform 0.2s; /* Smooth transition for rotation */
-    color: white;
-}
-
-.close-button:hover {
-    color:red;
-    transform: rotate(90deg); /* Rotate 90 degrees on hover */
 }
 
 @keyframes colorChange {
@@ -132,6 +122,16 @@
 
 #dark .additional-title-mobile{
     display: none;
+}
+
+.close-button {
+    transition: transform 0.2s; /* Smooth transition for rotation */
+    color: white;
+}
+
+.close-button:hover {
+    color:red;
+    transform: rotate(90deg); /* Rotate 90 degrees on hover */
 }
 
 @media (min-width:1000px) {
