@@ -46,11 +46,16 @@ const Home = ({ theme, changeTheme }) => {
         </Fade>
         <Fade>
           <div className="button-for-action">
-            <div className="hire-me-button">
-            <Link to="contact" spy={true} smooth={true} duration={100} offset={-100}>
-               Here Me <GrContact size={18}/>
-            </Link>
-            </div>
+            <Link 
+                to="contact" 
+                spy={true} 
+                smooth={true} 
+                duration={100} 
+                offset={-100} 
+                className="hire-me-button"
+            >
+                Here Me <GrContact size={18}/>
+            </Link>  
             <div className="get-resume-button" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onClick={() => {
                 const link = document.createElement('a');
                   link.href = MyCv;

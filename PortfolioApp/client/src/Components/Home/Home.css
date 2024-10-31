@@ -36,6 +36,8 @@
 .hire-me-button{
     background-color: tomato;
     text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     width: 180px;
     padding: 3px;
     border-radius: 90px;
