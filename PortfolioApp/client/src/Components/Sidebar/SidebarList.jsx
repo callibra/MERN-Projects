@@ -1,6 +1,6 @@
 import React from "react";
 import "./SidebarList.css";
-import profilepic from "../../image/a.jpg";
+import profilepic from "../../image/code.gif";
 import { FcHome, FcNightPortrait, FcTodoList, FcContacts, FcFactory, FcSalesPerformance } from "react-icons/fc";
 import { MdBiotech, MdCastForEducation } from "react-icons/md";
 import { SiStackblitz } from "react-icons/si";

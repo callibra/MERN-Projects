@@ -7,7 +7,7 @@ import { MdCastForEducation } from "react-icons/md";
 import { SiStackblitz } from "react-icons/si";
 import {Link} from "react-scroll"
 import { Fade } from 'react-awesome-reveal';
-import logo from '../../image/a.jpg'; // Update the path to your logo image
+import logo from '../../image/code.gif'; // Update the path to your logo image
 
 const NavbarMobileView = () => {
     const [open, setOpen] = useState(false);
