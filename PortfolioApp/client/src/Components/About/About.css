@@ -156,6 +156,10 @@
 @media (max-width:1000px) {
     .about-section{
         height: auto;
+        box-shadow: none;
+    }
+    #dark .about-section{
+        box-shadow: none;
     }
     /* .about-image img {
         display: none;

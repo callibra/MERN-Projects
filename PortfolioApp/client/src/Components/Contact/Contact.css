@@ -118,6 +118,26 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width:1000px) {
+    .contact-form-image img{
+       display: none;
+    }
+    .contact-section{
+        display: block; 
+        justify-content: normal; 
+        align-items: normal;
+        box-shadow: none;
+    }
+    #dark .contact-section{
+        background-color: rgb(26, 26, 26); 
+        background: none;
+        box-shadow: none;
+    }
+    .button-submit{
+        margin-top: 70px;
+    }
+}
   
 @media (max-width:767px) {
     .contact-form-image img{
@@ -127,6 +147,7 @@
         display: block; 
         justify-content: normal; 
         align-items: normal;
+        box-shadow: none;
     }
     .button-submit{
         margin-top: 70px;

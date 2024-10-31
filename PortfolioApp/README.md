@@ -3,7 +3,7 @@
 <br>
 <a href="#"><img src="portfolio.png" width="100%" height="100%" align="center"/></a>
 <br>
-<h2 align="left">Live Preview: 🌏 </h2>
+<h2 align="left">Live Preview: 🕹️ </h2>
 <div align="left">
     <p>• 🖥️  <span align="center">Portfolio Application</span>&nbsp;
     <a href="https://portfolio-app-v1.netlify.app" title="Portfolio Application">

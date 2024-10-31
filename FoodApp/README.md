@@ -3,7 +3,7 @@
 <br>
 <a href="#"><img src="foodapp.png" width="100%" height="100%" align="center"/></a>
 <br>
-<h2 align="left">Live Preview: 🌏 </h2>
+<h2 align="left">Live Preview: 🕹️ </h2>
 <div align="left">
     <p>• 🖥️  <span align="center">Food Application</span>&nbsp;
     <a href="https://food-app-jy8l.onrender.com" title="Food Application">
