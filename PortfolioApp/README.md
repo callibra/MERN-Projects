@@ -7,7 +7,7 @@
 <div align="left">
     <p>• 🖥️  <span align="center">Portfolio Application</span>&nbsp;
     <a href="https://portfolio-app-v1.netlify.app" title="Portfolio Application">
-        <img src="https://img.shields.io/badge/Live Preview-CC76F0?logo=shadcnui&logoColor=fff" height="20" align="center"/>
+        <img src="https://img.shields.io/badge/Preview-#48c9b0?logo=shadcnui&logoColor=fff" height="20" align="center"/>
     </a>
     </p>
 </div>
@@ -21,7 +21,7 @@
 </div>
 <h2 align="left">Settings : ⚙️ </h2>
 <div align="left">
-<p align="left">• 👷  In root folder "PortfolioApp" create new file ".env" with credentials: </p>
+<p align="left">• 👷  In root folder "PortfolioApp" create new file ".env" with content: </p>
     <p align="left">SENDGRID_API_KEY = "API_KEY" <br> EMAIL_TO = "EMAIL_URL" <br> EMAIL_FROM = "EMAIL_URL" <br> PORT = "5000"</p>
 </div>
 <!-- ////////////////////////////////////////////// MERN-Projects/PortfolioApp ///////////////////////////////////////////////// -->
