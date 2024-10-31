@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./NavbarMobileView.css"
 import { GiHamburgerMenu } from "react-icons/gi";
+import { MdClose } from "react-icons/md"; // Import the close icon
 import { FcHome, FcNightPortrait, FcTodoList, FcContacts, FcFactory, FcSalesPerformance } from "react-icons/fc";
 import { MdCastForEducation } from "react-icons/md";
 import { SiStackblitz } from "react-icons/si";
@@ -14,8 +15,12 @@ const NavbarMobileView = () => {
 
     // Toggle menu open/close
     const handleClick = () => {
-        setOpen(!open);
-    };
+      setOpen(!open);
+  };
+
+  const handleClose = () => {
+      setOpen(false);
+  };
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -44,8 +49,14 @@ const NavbarMobileView = () => {
                   </h3> */}
             </div>
             {open && (
-                <div className='mobile-nav' ref={navbarRef}>
+                <div className='mobile-nav' ref={navbarRef} >
                     <img src={logo} alt="Logo" className="logo" />
+                    <MdClose size={30} onClick={handleClose}  className="close-button" style={{ 
+                            cursor: 'pointer', 
+                            position: 'absolute', 
+                            top: '10px', // Adjust this value to position vertically
+                            right: '10px' // Adjust this value to position horizontally
+                        }} />
                     <Fade>
                     <ul>
                      <li className="nav-item-mobileview"> <Link to="home" spy={true} smooth={true} duration={100} offset={-100}><FcHome size={25} /> Home</Link> </li>
@@ -65,3 +76,6 @@ const NavbarMobileView = () => {
 };
 
 export default NavbarMobileView;
+
+///////////////////////// 888 ////////////////////////////
+

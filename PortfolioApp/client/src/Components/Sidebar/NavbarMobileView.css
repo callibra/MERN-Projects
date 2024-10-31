@@ -83,6 +83,16 @@
     cursor: pointer;
 }
 
+.close-button {
+    transition: transform 0.2s; /* Smooth transition for rotation */
+    color: white;
+}
+
+.close-button:hover {
+    color:red;
+    transform: rotate(90deg); /* Rotate 90 degrees on hover */
+}
+
 @keyframes colorChange {
     0% {
         color: #ff6347; 
