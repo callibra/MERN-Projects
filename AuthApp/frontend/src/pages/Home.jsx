@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     const fetchWorkouts = async () => {
       setLoading(true); // Set loading to true before fetch
-      const response = await fetch('${import.meta.env.VITE_API_URL}/workouts', {
+      const response = await fetch('${import.meta.env.VITE_API_URL}/api/workouts', {
         headers: {
           'Authorization': `Bearer ${user.token}`
         }

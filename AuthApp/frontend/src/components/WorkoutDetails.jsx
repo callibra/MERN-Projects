@@ -11,7 +11,7 @@ const WorkoutDetails = ({ workout }) => {
 
   const handleDelete = async () => {
     if (!user) return
-    const response = await fetch('${import.meta.env.VITE_API_URL}/workouts/' + workout._id, {
+    const response = await fetch('${import.meta.env.VITE_API_URL}/api/workouts/' + workout._id, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${user.token}`

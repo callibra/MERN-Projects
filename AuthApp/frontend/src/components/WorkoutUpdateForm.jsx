@@ -20,7 +20,7 @@ const WorkoutUpdateForm = ({ workout, onClose }) => {
       return
     }
     const updatedWorkout = { title, load, reps }
-    const response = await fetch(`${import.meta.env.VITE_API_URL}/workouts/${workout._id}`, {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/workouts/${workout._id}`, {
       method: 'PATCH',
       body: JSON.stringify(updatedWorkout),
       headers: {
