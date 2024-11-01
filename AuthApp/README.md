@@ -7,7 +7,7 @@
 <div align="left">
     <p>• 🖥️  <span align="center">Auth Application</span>&nbsp;
     <a href="https://auth-app-live.netlify.app" title="Auth Application">
-        <img src="https://img.shields.io/badge/Preview-e74c3c?logo=shadcnui&logoColor=fff" height="20" align="center"/>
+        <img src="https://img.shields.io/badge/Preview-7f33ff?logo=shadcnui&logoColor=fff" height="20" align="center"/>
     </a>
     </p>
 </div>
@@ -23,7 +23,7 @@
 <h2 align="left">Settings : ⚙️ </h2>
 <div align="left">
 <p align="left">• 👷  In folder "frontend" create ".env" file with content:  </p>
-     <p align="left">VITE_API_URL="BACKEND_API_URL" <br> If using proxy server from vite.congig.js then ignore this step. </p><br>
+     <p align="left">VITE_API_URL="BACKEND_API_URL" <br> If using proxy server from vite.config.js then ignore this step. </p><br>
 <p align="left">• 👷  In folder "backend" create ".env" file with content:  </p>
     <p align="left">PORT = PORT <br> MONGO_URI = MONGO_URL <br> SECRET =  SECRET_KEY </p>
 </div>
