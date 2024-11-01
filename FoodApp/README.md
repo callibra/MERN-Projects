@@ -25,7 +25,7 @@
 <p align="left">• 👷  In folder "admin" create ".env" file with content: </p>
     <p align="left">VITE_API_URL="BACKEND_API_URL" <br> VITE_FRONTEND_URL="FRONTEND_URL" </p><br>
 <p align="left">• 👷  In folder "frontend" create ".env" file with content:  </p>
-     <p align="left">VITE_API_URL="BACKEND_API_URL" <br> VITE_ADMIN_URLL="ADMIN_URL" </p><br>
+     <p align="left">VITE_API_URL="BACKEND_API_URL" <br> VITE_ADMIN_URL="ADMIN_URL" </p><br>
 <p align="left">• 👷  In folder "backend" create ".env" file with content:  </p>
     <p align="left">FRONTEND_URL="FRONTEND_URL" <br> STRIPE_SECRET_KEY="STRIPE_KEY"</p>
 <p align="left">• 👷  In folder "backend" in pkg folder create new folder with name"config" and inside this folder create "config.env" file with content: </p>
