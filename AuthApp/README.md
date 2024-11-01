@@ -1,4 +1,4 @@
-<h2 align="center">🔐 Auth Application 🛅</h2>
+<h2 align="center">🔐 Auth Application 🔑</h2>
 <p align="left">• 📢 Auth apllication create with React, Node JS, Express JS and Mongo DB.  </p>
 <br>
 <a href="#"><img src="authapp.png" width="100%" height="100%" align="center"/></a>
