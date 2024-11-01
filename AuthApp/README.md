@@ -6,7 +6,7 @@
 <h2 align="left">Live Preview: 🕹️ </h2>
 <div align="left">
     <p>• 🖥️  <span align="center">Auth Application</span>&nbsp;
-    <a href="https://authapp-live.netlify.app" title="Auth Application">
+    <a href="https://authapp-um47.onrender.com" title="Auth Application">
         <img src="https://img.shields.io/badge/Preview-7f33ff?logo=shadcnui&logoColor=fff" height="20" align="center"/>
     </a>
     </p>
