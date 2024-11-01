@@ -22,6 +22,7 @@ const Signup = () => {
         <input
            type="email"
            onChange={(e) => setEmail(e.target.value)}
+           autocomplete="username"
            value={email}
         />
         <label>Password:</label>
