@@ -25,8 +25,9 @@ const Login = () => {
         />
         <label>Password:</label>
         <input
-           type="password" autocomplete="current-password"
+           type="password" 
            onChange={(e) => setPassword(e.target.value)}
+           autocomplete="current-password"
            value={password}
         />
         <button disabled={isLoading}>Log in</button>
