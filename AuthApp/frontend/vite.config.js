@@ -3,11 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    minify: true,
-    sourcemap: false
-  }
+  base: '/', 
 });
+
 
 // // https://vitejs.dev/config/ Only for localhost testing use this code!
 // export default defineConfig({
