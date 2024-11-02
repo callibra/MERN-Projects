@@ -22,14 +22,14 @@ const Signup = () => {
         <input
            type="email"
            onChange={(e) => setEmail(e.target.value)}
-           autocomplete="username"
+           autoComplete="username"
            value={email}
         />
         <label>Password:</label>
         <input
            type="password" 
            onChange={(e) => setPassword(e.target.value)}
-           autocomplete="new-password"
+           autoComplete="new-password"
            value={password}
         />
         <button disabled={isLoading}>Sign up</button>
