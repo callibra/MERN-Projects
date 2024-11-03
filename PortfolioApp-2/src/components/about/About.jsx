@@ -38,19 +38,80 @@ const About = () => {
                             <span className="colored-word">• Sit</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officiis sunt nobis magni doloribus:
                         </p>
                         <ul className="about__list">
-                            <li><b>JavaScript</b> <img src={jsIcon} alt="JavaScript" /></li>
-                            <li><b>TypeScript</b> <img src={tsIcon} alt="TypeScript" /></li>
-                            <li><b>React</b> <img src={reactIcon} alt="React" /></li>
-                            <li><b>Node.js</b> <img src={nodejsIcon} alt="Node.js" /></li>
-                            <li><b>Postgres SQL</b> <img src={postgresIcon} alt="Postgres SQL" /></li>
-                            <li><b>NestJS</b> <img src={nestjsIcon} alt="NestJS" /></li>
-                            <li><b>Express</b> <img src={expressIcon} alt="Express" /></li>
-                            <li><b>MongoDB</b> <img src={mongodbIcon} alt="MongoDB" /></li>
-                            <li><b>Php</b> <img src={phpIcon} alt="Postman" /></li>
-                            <li><b>Next.js</b> <img src={nextjsIcon} alt="Next.js" /></li>
-                            <li><b>GitHub</b> <img src={githubIcon} alt="GitHub" /></li>
-                            <li><b>Wordpress</b> <img src={wordpressIcon} alt="WordPress" /></li>
-                        </ul>
+    <li>
+        <b>JavaScript -</b> 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+            <img src={jsIcon} alt="JavaScript" />
+        </a>
+    </li>
+    <li>
+        <b>TypeScript -</b> 
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
+            <img src={tsIcon} alt="TypeScript" />
+        </a>
+    </li>
+    <li>
+        <b>React -</b> 
+        <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+            <img src={reactIcon} alt="React" />
+        </a>
+    </li>
+    <li>
+        <b>Node.js -</b> 
+        <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+            <img src={nodejsIcon} alt="Node.js" />
+        </a>
+    </li>
+    <li>
+        <b>Postgres SQL -</b> 
+        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+            <img src={postgresIcon} alt="Postgres SQL" />
+        </a>
+    </li>
+    <li>
+        <b>NestJS -</b> 
+        <a href="https://nestjs.com/" target="_blank" rel="noopener noreferrer">
+            <img src={nestjsIcon} alt="NestJS" />
+        </a>
+    </li>
+    <li>
+        <b>Express -</b> 
+        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+            <img src={expressIcon} alt="Express" />
+        </a>
+    </li>
+    <li>
+        <b>MongoDB -</b> 
+        <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+            <img src={mongodbIcon} alt="MongoDB" />
+        </a>
+    </li>
+    <li>
+        <b>Php -</b> 
+        <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
+            <img src={phpIcon} alt="PHP" />
+        </a>
+    </li>
+    <li>
+        <b>Next.js -</b> 
+        <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+            <img src={nextjsIcon} alt="Next.js" />
+        </a>
+    </li>
+    <li>
+        <b>GitHub -</b> 
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <img src={githubIcon} alt="GitHub" />
+        </a>
+    </li>
+    <li>
+        <b>WordPress -</b> 
+        <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">
+            <img src={wordpressIcon} alt="WordPress" />
+        </a>
+    </li>
+</ul>
+
                         <hr className="line-hr" />
                         <button className="btn" onClick={downloadResume}>Download CV</button>
                     </div>

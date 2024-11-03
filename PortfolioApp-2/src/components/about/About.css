@@ -48,18 +48,21 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 1rem;
+  font-size: 18px;
+  color: rgb(255 76 97);
 }
 
 .about__list img {
   margin: 5px;
   border: none;
-  width: 35px !important;
-  height: 35px !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 0; /* Makes the image square */
   transition: transform 0.3s ease; /* Smooth transition for the transform */
 }
 
 .about__list img:hover{
-  transform: scale(1.5) rotate(5deg); /* Zoom in and rotate */
+  transform: scale(1.2) rotate(5deg); /* Zoom in and rotate */
 }
 
 .about__list li {
