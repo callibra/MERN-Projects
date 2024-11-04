@@ -9,6 +9,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import useLocalStorage from 'use-local-storage'
 import Footer from './components/footer/Footer';
+import ScrollToTop from "react-scroll-to-top";
 
 
 function App() {
@@ -32,6 +33,19 @@ function App() {
                 <Testimonials />
                 <Contact theme={theme} />
                 <Footer />
+                <ScrollToTop
+  smooth={true}
+  top="200"
+  color="white"
+  height="20"
+  width="20"
+  className="scroll-to-top"
+  style={{
+  borderRadius: "90px",
+  backgroundColor: "hsl(352.96deg 100% 64.9%)",
+  transition: "transform 0.3s ease", 
+  }}
+/>
             </main>
         </div>
     );
