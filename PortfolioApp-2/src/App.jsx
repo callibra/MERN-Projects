@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import useLocalStorage from 'use-local-storage'
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                 <Portfolio />
                 <Testimonials />
                 <Contact theme={theme} />
+                <Footer />
             </main>
         </div>
     );

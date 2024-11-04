@@ -12,13 +12,13 @@ import wordpressIcon from '../../assets/icons/wordpress.svg';
 import githubIcon from '../../assets/icons/github.svg';
 import gitIcon from '../../assets/icons/git.svg';
 import mongodbIcon from '../../assets/icons/mongodb.svg';
-import pythonIcon from '../../assets/icons/python.svg'; 
-import nextjsIcon from '../../assets/icons/nextjs.svg';
-import htmlIcon from '../../assets/icons/html.svg';
-import phpIcon from '../../assets/icons/php.svg';
-import nestjsIcon from '../../assets/icons/nestjs.svg';
-import bootstrapIcon from '../../assets/icons/bootstrap.svg';
-import javaIcon from '../../assets/icons/java.svg';
+// import pythonIcon from '../../assets/icons/python.svg'; 
+// import nextjsIcon from '../../assets/icons/nextjs.svg';
+// import htmlIcon from '../../assets/icons/html.svg';
+// import phpIcon from '../../assets/icons/php.svg';
+// import nestjsIcon from '../../assets/icons/nestjs.svg';
+// import bootstrapIcon from '../../assets/icons/bootstrap.svg';
+// import javaIcon from '../../assets/icons/java.svg';
 
 const Shapes = () => {
   const icons = [
@@ -32,13 +32,13 @@ const Shapes = () => {
     githubIcon,
     gitIcon,
     mongodbIcon,
-    pythonIcon, 
-    nextjsIcon,
-    htmlIcon,
-    phpIcon,
-    nestjsIcon,
-    bootstrapIcon,
-    javaIcon,
+    // pythonIcon, 
+    // nextjsIcon,
+    // htmlIcon,
+    // phpIcon,
+    // nestjsIcon,
+    // bootstrapIcon,
+    // javaIcon,
   ];
   
   return (

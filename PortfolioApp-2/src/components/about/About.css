@@ -49,7 +49,7 @@
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 1rem;
   font-size: 18px;
-  color: rgb(255 76 97);
+  color: hsl(352.96deg 100% 64.9%);
 }
 
 .about__list img {
@@ -71,7 +71,7 @@
 }
 
 .about__list li::before {
-  content: "-";
+  content: "🚀";
   position: relative;
   left: -10px;
   
@@ -110,6 +110,10 @@
   display: block;
 }
 
+.skills-title{
+  margin-bottom: 15px;
+}
+
 .development {
   width: 90%;
   background-color: rgb(255, 209, 92);
@@ -146,7 +150,7 @@
 }
 
 .colored-word {
-  color: #ff6347; 
+  color: hsl(352.96deg 100% 64.9%); 
   font-weight: bold; 
   margin-right: 5px; 
   font-size: 18px;
@@ -155,7 +159,7 @@
 .line-hr{
   border: 0;
   height: 1px; 
-  background-color:tomato; 
+  background-color:hsl(352.96deg 100% 64.9%); 
   margin: 20px 0; 
 }
 

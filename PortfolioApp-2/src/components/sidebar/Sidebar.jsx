@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import Logo from "../../assets/a.jpg";
-import LightLogo from "../../assets/a.jpg";
+import Logo from "../../assets/code.gif";
+import LightLogo from "../../assets/code.gif";
 
 import {
     RiHome2Line,
