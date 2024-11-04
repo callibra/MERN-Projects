@@ -22,7 +22,7 @@
   width: 220px;
   border-radius: 200px; 
   border: 2px solid rgba(121, 121, 121, 0.801);
-  object-fit: cover; /* Ensure the image covers the container without distortion */
+  object-fit: cover; 
 }
 
 .home__name {
@@ -101,18 +101,6 @@
   animation: ani-mouse 2s linear infinite;
 }
 
-/* .shapes {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.shape {
-  position: absolute;
-} */
-
 .typewriter-container {
   font-size: 1.5rem; /* Adjust font size as needed */
   /* color: #777777; Text color */
@@ -123,58 +111,3 @@
 .typewriter-wrapper {
   display: inline; /* Keep the text inline */
 }
-
-/* .s1 {
-  left: 2%;
-  top: 10%;
-}
-
-.s2 {
-  left: 18%;
-  top: 30%;
-}
-
-.s3 {
-  left: 5%;
-  bottom: 30%;
-}
-
-.s4 {
-  left: 2%;
-  bottom: 10%;
-}
-
-.s5 {
-  left: 44%;
-  top: 10%;
-}
-
-.s6 {
-  left: 36%;
-  bottom: 10%;
-}
-
-.s7 {
-  top: 20%;
-  right: 25%;
-}
-
-.s8 {
-  right: 24%;
-  bottom: 20%;
-}
-
-.s9 {
-  right: 2%;
-  top: 10%;
-}
-
-.s10 {
-  top: 45%;
-  right: 11%;
-}
-
-.s11 {
-  bottom: 10%;
-  right: 2%;
-} */

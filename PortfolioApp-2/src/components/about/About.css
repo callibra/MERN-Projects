@@ -174,6 +174,8 @@
 }
 /* /////////////// Button //////////// */
 .cv-resume{
+    width: 180px;
+    margin-top: 1rem;
     padding: 0.75rem 2rem;
     line-height: 1;
     border-radius: 1.875rem;
