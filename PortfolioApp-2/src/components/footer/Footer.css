@@ -42,3 +42,9 @@
 
 /* //////////////// 1van4e /////////////////////////////////// */
 
+@media screen and (max-width: 420px) {
+  .footer-title {
+    text-align: center; /* ili drugi stil po vašem izboru */
+  }
+}
+
