@@ -42,10 +42,10 @@ const Contact = (props) => {
         // Hardcode your EmailJS service ID, template ID, and public API key
         emailjs
             .send(
-                import.meta.env.VITE_EMAILJS_SERVICE_ID,  // Service ID iz .env
-                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,  // Template ID iz .env
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,  // Service ID from .env
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,  // Template ID from .env
                 data,
-                import.meta.env.VITE_EMAILJS_PUBLIC_API_KEY     // API Key iz .env
+                import.meta.env.VITE_EMAILJS_PUBLIC_API_KEY     // API Key from .env
             )
             .then(
                 (result) => {
@@ -62,7 +62,7 @@ const Contact = (props) => {
                     setThankYouMessageVisible(true);
                     setShowButton(false);
 
-                    // Reset the view (show button again) after 15 seconds
+                    // Reset the view (show button again) after 35 seconds
                     setTimeout(() => {
                         setThankYouMessageVisible(false);
                         setShowButton(true);
