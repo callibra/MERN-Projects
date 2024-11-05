@@ -15,6 +15,7 @@
 <div align="left">
     <a href="#"><img src="https://skillicons.dev/icons?i=js" width="50" height="50" /></a>&nbsp;
     <a href="#"><img src="https://skillicons.dev/icons?i=react" width="50" height="50" /></a>&nbsp;
+    <a href="#"><img src="https://skillicons.dev/icons?i=css" width="50" height="50" /></a>&nbsp;
     <a href="#"><img src="https://skillicons.dev/icons?i=vite" width="50" height="50" /></a>&nbsp;
     <a href="#"><img src="https://skillicons.dev/icons?i=nodejs" width="50" height="50" /></a>&nbsp;
 </div>
