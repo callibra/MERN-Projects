@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import emailjs from "@emailjs/browser";
-
+import Image from '../../assets/w.gif';
 import "./Contact.css";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -57,6 +57,7 @@ const Contact = (props) => {
                     <p className="contact__details">
                         Don't like forms? Send me an email. 👋
                     </p>
+                    <img src={Image} />
                 </div>
 
                 <form onSubmit={submitHandler} className="contact__form">

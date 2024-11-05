@@ -4,7 +4,7 @@
 }
 
 .footer-title{
-  font-size: var(--h4-font-size);
+  font-size: 15px;
   margin-bottom: 1rem;
 }
 
@@ -44,7 +44,8 @@
 
 @media screen and (max-width: 420px) {
   .footer-title {
-    text-align: center; /* ili drugi stil po vašem izboru */
+    text-align: center; 
+    font-size: 12px;
   }
 }
 

@@ -3,6 +3,7 @@ import './About.css';
 import Image from '../../assets/a.jpg';
 import Resume from '../../assets/MyCv.pdf';
 import AboutBox from './AboutBox';
+import { SiSkillshare, SiCodeigniter } from 'react-icons/si';
 
 // Importing local SVG icons
 import jsIcon from '../../assets/icons/js.svg';
@@ -38,73 +39,73 @@ const About = () => {
                         <h3 className='skills-title'>🛠️ Skills :</h3>
                         <ul className="about__list">
     <li>
-        <b>JavaScript </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> JavaScript </b> 
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
             <img src={jsIcon} alt="JavaScript" />
         </a>
     </li>
     <li>
-        <b>TypeScript </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> TypeScript </b> 
         <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
             <img src={tsIcon} alt="TypeScript" />
         </a>
     </li>
     <li>
-        <b>React </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> React </b> 
         <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
             <img src={reactIcon} alt="React" />
         </a>
     </li>
     <li>
-        <b>Node.js </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> Node.js </b> 
         <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
             <img src={nodejsIcon} alt="Node.js" />
         </a>
     </li>
     <li>
-        <b>Python </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> Python </b> 
         <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
             <img src={pythonIcon} alt="Postgres SQL" />
         </a>
     </li>
     <li>
-        <b>NestJS </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> NestJS </b> 
         <a href="https://nestjs.com/" target="_blank" rel="noopener noreferrer">
             <img src={nestjsIcon} alt="NestJS" />
         </a>
     </li>
     <li>
-        <b>Express </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> Express </b> 
         <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
             <img src={expressIcon} alt="Express" />
         </a>
     </li>
     <li>
-        <b>MongoDB </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> MongoDB </b> 
         <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
             <img src={mongodbIcon} alt="MongoDB" />
         </a>
     </li>
     <li>
-        <b>Php </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> Php </b> 
         <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
             <img src={phpIcon} alt="PHP" />
         </a>
     </li>
     <li>
-        <b>Next.js </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> Next.js </b> 
         <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
             <img src={nextjsIcon} alt="Next.js" />
         </a>
     </li>
     <li>
-        <b>GitHub </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> GitHub </b> 
         <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="GitHub" />
         </a>
     </li>
     <li>
-        <b>WordPress </b> 
+        <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> WordPress </b> 
         <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">
             <img src={wordpressIcon} alt="WordPress" />
         </a>

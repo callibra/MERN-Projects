@@ -50,7 +50,7 @@
   gap: 0.5rem; 
   margin-bottom: 1.2rem;
   font-size: 16px;
-  color: hsl(352.96deg 100% 64.9%);
+  color: hsl(220, 14%, 84%);
   background-color: rgb(75, 75, 75);
   border: 2px; 
   border-radius: 5px; 
@@ -76,7 +76,7 @@
 }
 
 .about__list li::before {
-  content: "🚀";
+  /* content: "🚀"; */
   position: relative;
   left: -10px;
   margin: 1px;
@@ -183,8 +183,8 @@
     border: 1px solid transparent;
     color: #fff;
     display: inline-block;
-    background-color: var(--first-color);
-    font-weight: var(--font-bold);
+    background-color: hsl(352.96deg 100% 64.9%);
+    font-weight: 700;
 }
 
 [data-theme="light"] .about__list {
@@ -193,6 +193,10 @@
 
 [data-theme="light"] .about__skills {
   background-color: rgb(235, 235, 235);
+}
+
+[data-theme="light"] .about__list {
+  color: hsl(244, 51%, 49%);
 }
 
 @keyframes button-push {
@@ -206,9 +210,8 @@
 }
 /* /////////// Button /////////// */
 .cv-resume:hover {
-  animation: button-push 0.3s linear 1;
+  animation: button-push 0.4s linear 1;
 }
-
 
 @media screen and (max-width: 1024px) {
   .about__container {
@@ -221,6 +224,10 @@
     height: 300px;
     width: 300px;
     margin: 20px;
+  }
+
+  .about__list img {
+    margin: 10px;
   }
 
   .about__data::before {
@@ -240,12 +247,18 @@
     row-gap: 0.5rem;
     text-align: center;
     align-items: center;
+    padding: 1px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .about__container {
     grid-template-columns: 350px;
+  }
+
+  .about__list {
+    grid-template-columns: 1fr; 
+    gap: 0.1rem;
   }
 
   .about__container img {
@@ -267,6 +280,7 @@
     row-gap: 1.5rem;
     justify-content: center;
   }
+
 }
 /* //////////////// Icon version ////////////////// */
 @media (max-width: 600px) {
