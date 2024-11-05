@@ -22,6 +22,6 @@
 <div align="left">
 <p align="left">• 👷  In root folder "PortfolioApp-2" create new file ".env" with content: </p>
     <p align="left">REACT_APP_EMAILJS_SERVICE_ID = "EMAILJS_SERVICE_ID" <br> REACT_APP_EMAILJS_TEMPLATE_ID = "EMAILJS_TEMPLATE_ID" <br> REACT_APP_EMAILJS_PUBLIC_API = "EMAILJS_PUBLIC_API"</p>
-    <p align="left">Create free account and then create email form from sending emails from website: https://www.emailjs.com</p>
+    <p align="left">Create free account and then create email form for sending emails.<br> Website: https://www.emailjs.com</p>
 </div>
 <!-- ////////////////////////////////////////////// MERN-Projects/PortfolioApp-2 ///////////////////////////////////////////////// -->
