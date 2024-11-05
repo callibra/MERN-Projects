@@ -25,4 +25,4 @@
     <p align="left">VITE_EMAILJS_SERVICE_ID = "EMAILJS_SERVICE_ID" <br> VITE_EMAILJS_TEMPLATE_ID = "EMAILJS_TEMPLATE_ID" <br> VITE_EMAILJS_PUBLIC_API_KEY = "EMAILJS_PUBLIC_API_KEY"</p>
     <p align="left">Create free account and then create email form for sending emails.<br> Website: https://www.emailjs.com</p>
 </div>
-<!-- ////////////////////////////////////////////// MERN-Projects/PortfolioApp-2 ///////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////// MERN-Projects/PortfolioApp-2 ////////////////////////////////////////////////// -->
