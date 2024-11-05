@@ -11,11 +11,23 @@ const Contact = (props) => {
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
     const [loading, setLoading] = useState(false);
+    const [thankYouMessageVisible, setThankYouMessageVisible] = useState(false);  // State for showing thank you message
+    const [showButton, setShowButton] = useState(true);  // State to control button visibility
+
+    // Regex for validating a basic email format (contains '@' and domain like .com, .org, etc.)
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     const submitHandler = async (e) => {
         e.preventDefault();
+
+        // Check if the fields are empty
         if (!name || !email || !subject || !message) {
             return toast.error("Please complete the form above");
+        }
+
+        // Validate email format using regex
+        if (!emailRegex.test(email)) {
+            return toast.error("Please enter a valid email address (e.g., name@example.com)");
         }
 
         setLoading(true);
@@ -27,17 +39,34 @@ const Contact = (props) => {
             message,
         };
 
+        // Hardcode your EmailJS service ID, template ID, and public API key
         emailjs
             .send(
-                process.env.REACT_APP_EMAILJS_SERVICE_ID,
-                process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,  // Service ID iz .env
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,  // Template ID iz .env
                 data,
-                process.env.REACT_APP_EMAILJS_PUBLIC_API
+                import.meta.env.VITE_EMAILJS_PUBLIC_API_KEY     // API Key iz .env
             )
             .then(
                 (result) => {
                     setLoading(false);
                     toast.success(`Successfully sent email.`);
+
+                    // Clear the form fields after successful submission
+                    setName("");
+                    setEmail("");
+                    setSubject("");
+                    setMessage("");
+
+                    // Show the "Thanks for contacting me" message and hide the button
+                    setThankYouMessageVisible(true);
+                    setShowButton(false);
+
+                    // Reset the view (show button again) after 15 seconds
+                    setTimeout(() => {
+                        setThankYouMessageVisible(false);
+                        setShowButton(true);
+                    }, 35000);
                 },
                 (error) => {
                     setLoading(false);
@@ -67,6 +96,7 @@ const Contact = (props) => {
                                 type="text"
                                 className="contact__form-input"
                                 placeholder="Insert your name"
+                                value={name}
                                 onChange={(e) => setName(e.target.value)}
                             />
                         </div>
@@ -76,6 +106,7 @@ const Contact = (props) => {
                                 type="email"
                                 className="contact__form-input"
                                 placeholder="Insert your email"
+                                value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
@@ -86,25 +117,32 @@ const Contact = (props) => {
                             type="text"
                             className="contact__form-input"
                             placeholder="Insert your subject"
+                            value={subject}
                             onChange={(e) => setSubject(e.target.value)}
                         />
                     </div>
 
                     <div className="contact__form-div contact__form-area">
                         <textarea
-                            name=""
-                            id=""
                             cols="30"
                             rows="10"
                             className="contact__form-input"
                             placeholder="Write your message"
+                            value={message}
                             onChange={(e) => setMessage(e.target.value)}
                         ></textarea>
                     </div>
 
-                    <button type="submit" className="btn">
-                        {loading ? "Sending..." : "Send Message"}
-                    </button>
+                    {/* Conditionally render the button and the thank you message */}
+                    {showButton && (
+                        <button type="submit" className="btn">
+                            {loading ? "Sending..." : "Send Message"}
+                        </button>
+                    )}
+
+                    {thankYouMessageVisible && (
+                        <p className="thank-you-message">Thank You for Contacting Me!</p>
+                    )}
                 </form>
                 <ToastContainer position="bottom-right" theme={props.theme} />
             </div>
@@ -113,3 +151,7 @@ const Contact = (props) => {
 };
 
 export default Contact;
+
+
+
+

@@ -48,6 +48,18 @@
   resize: none;
 }
 
+.thank-you-message {
+  font-size: 18px;
+  color: hsl(220, 14%, 84%);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+[data-theme="light"] .thank-you-message {
+  color: hsl(244, 100%, 26%);
+}
+
 @media screen and (max-width: 1024px) {
   .contact__container {
     grid-template-columns: 300px 360px;
