@@ -64,7 +64,7 @@ const About = () => {
     </li>
     <li>
         <b><SiSkillshare size={25} style={{ verticalAlign: 'middle' }}/> Python </b> 
-        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
             <img src={pythonIcon} alt="Postgres SQL" />
         </a>
     </li>
