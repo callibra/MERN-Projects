@@ -1,5 +1,6 @@
 <h2 align="center">🧑 Portfolio Application 👩</h2>
-<p align="left">• 📢 Portfolio Web Site made with React, Node JS, Express JS and Twilio API key for send email.  </p>
+<p align="left">• 📢 This is a portfolio application made with React JS and Bootstrap for frontend part, while for backend part who is using only for sending messages a used Node JS and some npm packages like Nodemailer for send e-mail.
+</p>
 <br>
 <a href="#"><img src="portfolio.png" width="100%" height="100%" align="center"/></a>
 <br>

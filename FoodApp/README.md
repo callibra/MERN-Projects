@@ -1,5 +1,6 @@
 <h2 align="center">🍲 Food Application 🥗</h2>
-<p align="left">• 📢 Food apllication create with React, Node JS, Express JS, Mongo DB and Stripe payment platform.  </p>
+<p align="left">• 📢 This Aplliction is full stact MERN App create for online shopping and payment using the Stripe online shopping platform. Frontend part is develop with React JS while for backend a used Node JS Express and MongoDB for database. This application also uses and admin section where the application is managed through a dashboard.
+</p>
 <br>
 <a href="#"><img src="foodapp.png" width="100%" height="100%" align="center"/></a>
 <br>
