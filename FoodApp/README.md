@@ -8,7 +8,7 @@
 <div align="left">
     <p>• 🖥️  <span align="center">Food Application</span>&nbsp;
     <a href="https://food-app-jy8l.onrender.com" title="Food Application">
-        <img src="https://img.shields.io/badge/Preview-e74c3c?logo=shadcnui&logoColor=fff" height="20" align="center"/>
+        <img src="https://img.shields.io/badge/Preview-2563EB?logo=googlechrome&logoColor=fff&style=for-the-badge" height="28" align="center"/>
     </a>
     </p>
 </div>
