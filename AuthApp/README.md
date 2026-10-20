@@ -7,7 +7,7 @@
 <div align="left">
     <p>• 🖥️  <span align="center">Auth Application</span>&nbsp;
     <a href="https://auth-app-97qu.onrender.com" title="Auth Application">
-        <img src="https://img.shields.io/badge/Preview-8B5CF6?logo=googlechrome&logoColor=fff&style=for-the-badge" height="28" align="center"/>
+        <img src="https://img.shields.io/badge/Preview-8B5CF6?logo=googlechrome&logoColor=fff&style=for-the-badge" height="28" style="vertical-align: middle;"/>
     </a>
     </p>
 </div>
