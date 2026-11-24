@@ -1,0 +1,2 @@
+New-Item .clineignore -ItemType File
+notepad .clineignore
